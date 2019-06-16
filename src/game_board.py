@@ -1,5 +1,3 @@
-import os
-
 from piece_type import GAME_PIECE_X, GAME_PIECE_O, BLANK_PIECE
 
 
@@ -8,7 +6,8 @@ class GameBoard(object):
     game_board = []
 
     def __init__(self):
-        print("Creating GameBoard Class")
+        #print("Creating GameBoard Class")
+        pass
 
     def create_board(self):
         self.game_board = [BLANK_PIECE] * 9
@@ -17,8 +16,6 @@ class GameBoard(object):
         return self.game_board
 
     def print_board(self):
-
-        #os.system('clear')
 
         print(
             f"{self.game_board[0]} | {self.game_board[1]} | {self.game_board[2]}")
