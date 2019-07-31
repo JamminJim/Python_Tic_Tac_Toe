@@ -4,7 +4,7 @@ import timeit
 
 from game_board import GameBoard
 from game_logic import update_path_weights, update_position_weights, choose_path, check_gameOver
-from piece_type import GAME_PIECE_O, GAME_PIECE_X
+from submodule.piece_type import GAME_PIECE_O, GAME_PIECE_X
 
 
 def run_game():
