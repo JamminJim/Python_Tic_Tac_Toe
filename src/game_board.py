@@ -3,6 +3,7 @@ from piece_type import GAME_PIECE_X, GAME_PIECE_O, BLANK_PIECE
 
 class GameBoard(object):
 
+    # This is a simple comment line
     game_board = []
 
     def __init__(self):
